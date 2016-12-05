@@ -67,7 +67,7 @@ All form elements that you would like to post to will need to be added with
 
 You can also use the update action using the same form setup by just replacing
 the hidden action field value to: `airtable/records/update` and add a hidden field
-`name="recordId"` with the current records id as the value.
+`name="recordId"` with the current record's id as the value.
 
 Example form save below:
 ```
