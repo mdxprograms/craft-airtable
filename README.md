@@ -93,7 +93,7 @@ Delete record (`recordId` must be supplied via post data):
 
 Some things to do, and ideas for potential features:
 
-- [] Generate forms based on table fields with a twig template generated
+* Generate forms based on table fields with a twig template generated
 
 ## Airtable Changelog
 
