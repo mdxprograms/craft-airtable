@@ -1,0 +1,14 @@
+{
+	"name": "mdxprograms/airtable",
+	"description": "Use Airtable bases in Craft",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Josh Waller",
+			"homepage": "https://www.joshwaller.me"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}

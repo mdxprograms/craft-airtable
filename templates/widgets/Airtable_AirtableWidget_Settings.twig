@@ -1,0 +1,26 @@
+{#
+/**
+ * Airtable plugin for Craft CMS
+ *
+ * Airtable_AirtableWidget Settings
+ *
+ * @author    Josh Waller
+ * @copyright Copyright (c) 2016 Josh Waller
+ * @link      https://www.joshwaller.me
+ * @package   Airtable
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "airtable/css/Airtable_Style.css" %}
+{% includeJsResource "airtable/js/Airtable_Script.js" %}
+
+{{ forms.textField({
+    label: 'Some Setting',
+    instructions: 'Enter some setting here.',
+    id: 'someSetting',
+    name: 'someSetting',
+    value: settings['someSetting']})
+}}

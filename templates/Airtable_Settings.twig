@@ -1,0 +1,34 @@
+{#
+/**
+ * Airtable plugin for Craft CMS
+ *
+ * Airtable Settings.twig
+ *
+ * @author    Josh Waller
+ * @copyright Copyright (c) 2016 Josh Waller
+ * @link      https://www.joshwaller.me
+ * @package   Airtable
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "airtable/css/Airtable_Style.css" %}
+{% includeJsResource "airtable/js/Airtable_Script.js" %}
+
+{{ forms.textField({
+    label: 'API Key',
+    instructions: 'Enter your API key',
+    id: 'api_key',
+    name: 'api_key',
+    value: settings['api_key']})
+}}
+
+{{ forms.textField({
+    label: 'Bases and Tables',
+    instructions: 'Enter all bases ids separated by a @ then your table name as shown in Airtable. Multiple Base and tables can be added by adding a , separator. <br />Example: 123412341234@Candidates, alksdfjhq23@Users',
+    id: 'basesAndTables',
+    name: 'basesAndTables',
+    value: settings['basesAndTables']})
+}}
