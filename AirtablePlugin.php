@@ -71,7 +71,7 @@ class AirtablePlugin extends BasePlugin
      */
     public function getDocumentationUrl()
     {
-        return 'https://github.com/mdxprograms/airtable/blob/master/README.md';
+        return 'https://github.com/mdxprograms/craft-airtable/blob/master/README.md';
     }
 
     /**
@@ -83,7 +83,7 @@ class AirtablePlugin extends BasePlugin
      */
     public function getReleaseFeedUrl()
     {
-        return 'https://raw.githubusercontent.com/mdxprograms/airtable/master/releases.json';
+        return 'https://github.com/mdxprograms/craft-airtable/blob/master/releases.json';
     }
 
     /**
